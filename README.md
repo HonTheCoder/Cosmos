@@ -69,3 +69,5 @@ The project bundles `public/assets/audio/cosmos-ambient.mp3`, adapted from the p
 **Before publishing publicly**, confirm that you have permission to redistribute this soundtrack and the supplied media. Review [Asset Credits](ASSET_CREDITS.md), do not imply NASA endorsement, and do not commit credentials or `.env` secrets. Developer credit in the website footer does not transfer copyright in external assets.
 
 **Developer:** DevHon. No open-source license is granted here for third-party imagery or music.
+
+Background Music: AI-generated using Google Flow Music for the COSMOS project.
