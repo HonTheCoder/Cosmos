@@ -1,0 +1,14 @@
+COSMOS / DEEP EXPLORATION EDITION
+
+QUICK LAUNCH
+1. Extract the ZIP.
+2. Open COSMOS-3D-Solar-System/COSMOS_OFFLINE.html in Chrome or Edge.
+3. Select EXPLORATION LAB from the top navigation.
+4. Scroll the instrument list to discover 16 interactive exhibits.
+
+DEVELOPER EDITION
+In COSMOS-3D-Solar-System, run:
+  npm install
+  npm run dev
+
+Read README.md for scientific caveats and testing results.

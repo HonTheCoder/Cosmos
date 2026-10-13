@@ -1,0 +1,41 @@
+/* COSMOS Exploration Passport — intentionally scoped to the remaining exhibit. */
+.cf-modal,.cf-modal *{box-sizing:border-box}
+.cf-modal{position:fixed;inset:0;z-index:99999;display:grid;place-items:center;color:#eaf4ff;font-family:'IBM Plex Sans',system-ui,sans-serif}
+.cf-open{overflow:hidden!important}
+.cf-backdrop{position:absolute;inset:0;border:0;background:#01040bdc;backdrop-filter:blur(11px)}
+.cf-panel{position:relative;display:flex;flex-direction:column;width:min(1040px,calc(100vw - 32px));max-height:min(94dvh,950px);background:#071222;border:1px solid #8bb0d044;box-shadow:0 26px 130px #000c;overflow:hidden}
+.cf-header{display:flex;justify-content:space-between;align-items:start;gap:20px;padding:24px 30px 20px;border-bottom:1px solid #8aaac436;background:#0a1828}
+.cf-header small,.cf-passport-hero small,.cf-passport-label,.cf-passport-counter small,.cf-stamp small,.cf-badge-row span,.cf-button{font:600 10px/1.5 'IBM Plex Mono',monospace;letter-spacing:.11em;color:#95b8d2}
+.cf-header h2{font:700 clamp(24px,3.2vw,38px)/1.13 'Sora',sans-serif;letter-spacing:-.05em;margin:8px 0}
+.cf-header p{margin:0;color:#aabcce;font-size:13px;line-height:1.7}
+.cf-x{flex:none;width:43px;height:43px;border:1px solid #82aac255;color:#e8f5ff;background:#16283d;font-size:27px;cursor:pointer}
+.cf-body{padding:25px 30px 30px;min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-color:#486c86 #081726}
+.cf-passport-hero{display:grid;grid-template-columns:minmax(0,1fr) 190px;align-items:center;gap:30px;background:radial-gradient(ellipse at 90% 30%,#14344f,#071523 65%);padding:28px;border:1px solid #6e94b044}
+.cf-passport-hero h3{font:750 clamp(26px,4.3vw,56px)/1.08 'Sora',sans-serif;letter-spacing:-.055em;margin:15px 0;color:#f0f6ff}
+.cf-passport-hero h3 em{font-style:normal;color:#9acafa}
+.cf-passport-hero p{max-width:540px;color:#a9bed0;font-size:13px;line-height:1.7;margin:8px 0 0}
+.cf-passport-counter{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.cf-passport-counter strong{font:700 68px/1 'Sora',sans-serif;letter-spacing:-.06em}
+.cf-passport-counter strong span{font:500 20px/1.2 'IBM Plex Mono',monospace;color:#8ca5bf;vertical-align:baseline}
+.cf-passport-meter{height:3px;width:130px;background:#344b62;margin-top:12px;overflow:hidden}
+.cf-passport-meter b{display:block;height:100%;background:#9bd5ff}
+.cf-passport-label{margin:24px 0 13px}
+.cf-stamp-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.cf-stamp{min-height:115px;text-align:left;border:1px solid #56728f77;color:#e0edfa;background:#0c1c2c;padding:16px;display:flex;flex-direction:column;gap:7px;cursor:pointer;transition:border-color .2s,background .2s}
+.cf-stamp>span{font-size:20px;line-height:1;color:#7397af}
+.cf-stamp strong{font:650 13px/1.3 'Sora',sans-serif;letter-spacing:.02em}
+.cf-stamp.earned{background:#14334a;border-color:#8dceed}.cf-stamp.earned>span{color:#b4e2fd}
+.cf-stamp:hover,.cf-button:hover{background:#19364c;border-color:#b7dff8}
+.cf-badge-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.cf-badge-row>div{display:flex;flex-direction:column;gap:5px;background:#101e2e;border:1px solid #6985a044;padding:16px}
+.cf-badge-row strong{font:700 28px/1.1 'Sora',sans-serif;color:#ebf6ff}
+.cf-journal-log{margin-top:13px;border:1px solid #6684a044;padding:14px 18px;color:#b9cada;font-size:13px;line-height:1.7}
+.cf-journal-log strong{color:#e8f4ff}.cf-journal-log p{margin:5px 0}
+.cf-passport-controls{display:flex;flex-wrap:wrap;gap:10px;margin-top:17px}
+.cf-button{padding:12px 17px;background:#11283c;border:1px solid #7796b3aa;color:#e7f6ff;min-height:42px;cursor:pointer}
+.cf-button-primary{background:#e6f3ff;border-color:#e6f3ff;color:#07121d}
+.cf-button-primary:hover{color:white}
+.cf-danger{color:#f4c3bb;border-color:#b4767166}
+.cf-caveat{color:#829db4;font-size:11px;line-height:1.7;margin:18px 0 2px}
+@media(max-width:700px){.cf-panel{width:calc(100vw - 14px);max-height:96dvh}.cf-header{padding:17px 16px 14px;gap:10px}.cf-header h2{font-size:23px}.cf-header p{font-size:12px}.cf-body{padding:13px 13px 22px}.cf-passport-hero{grid-template-columns:1fr;gap:20px;padding:20px}.cf-passport-hero h3{font-size:clamp(25px,7vw,38px)}.cf-passport-counter{align-items:flex-start}.cf-passport-counter strong{font-size:44px}.cf-stamp-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cf-stamp{min-height:94px;padding:13px}.cf-badge-row{gap:6px}.cf-badge-row>div{padding:12px 8px}.cf-badge-row strong{font-size:19px}.cf-badge-row span{font-size:8px}.cf-passport-controls .cf-button{flex:1}.cf-passport-label{margin-top:18px}}
+@media(max-width:370px){.cf-header h2{font-size:20px}.cf-header p{font-size:11px}.cf-stamp strong{font-size:12px}.cf-badge-row{grid-template-columns:1fr}.cf-badge-row>div{padding:10px 14px}}
