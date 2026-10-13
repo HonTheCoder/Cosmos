@@ -1,73 +1,152 @@
 # COSMOS — Planetary Field Guide
 
-**An interactive 3D solar-system experience developed by DevHon.**
+**An interactive 3D solar system experience developed by DevHon.**
 
-COSMOS combines a cinematic scroll-driven journey through the solar system with a planet atlas, moon viewer, planetary comparisons, and an interactive Exploration Lab. Designed for desktop and mobile.
+COSMOS is a personal web development project created for fun, learning, and experimenting with interactive 3D graphics.
 
-> **Independent educational project:** COSMOS is not affiliated with, sponsored by, or endorsed by NASA. Some textures, atmospheric effects, orbital simulations, and extraterrestrial landscapes are artistic or approximate. See [Asset Credits](ASSET_CREDITS.md).
+It features a cinematic, scroll-driven journey through the solar system, allowing visitors to explore planets, discover interesting space facts, and interact with various astronomical simulations.
 
-## Run locally in VS Code
+Built with modern web technologies, COSMOS focuses on immersive visuals, smooth animations, and responsive design.
 
-**Requirements:** Node.js 20+ and npm.
+> **Disclaimer:** COSMOS is an independent educational and experimental project. It is not affiliated with, sponsored by, or endorsed by NASA. Some planetary textures, effects, and scientific simulations are artistic or approximate representations.
+
+---
+
+## Technologies Used
+
+**Languages**
+- TypeScript
+- JavaScript
+- HTML5
+- CSS3
+
+**Frameworks & Libraries**
+- React
+- Three.js
+- React Three Fiber
+- GSAP / ScrollTrigger
+- Vite
+- WebGL
+
+---
+
+## Features
+
+### 3D Planet Exploration
+- Interactive 3D planetary models
+- Realistic planetary textures and lighting
+- Cinematic scroll-based transitions
+- Smooth camera movements and parallax effects
+- Planet rotation and inspection controls
+- Responsive desktop and mobile interfaces
+
+### Interactive Exploration Lab
+- Planet Size Comparison
+- Orbital Navigator
+- Moon Explorer
+- Planetary Hotspots
+- Day & Night Simulator
+- Guided Spacecraft Tour
+- Planet Surface Map Explorer
+- Planet Interior Explorer
+
+### Science & Discovery
+- Solar System Time Machine
+- Space Mission Explorer
+- Eclipse Simulator
+- Gravity Laboratory
+- Exoplanet Explorer
+- Exploration Passport
+
+### Additional Features
+- Cinematic Photo Mode
+- Interactive scientific information panels
+- Custom desktop rocket cursor
+- Custom COSMOS favicon
+- Cinematic background soundtrack
+
+---
+
+## How to Run Locally
+
+### Requirements
+
+Install [Node.js](https://nodejs.org/) (version 20 or later) and npm.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/HonTheCoder/Cosmos.git
+```
+
+### 2. Open the Project
+
+```bash
+cd Cosmos
+```
+
+Open the folder in Visual Studio Code or your preferred code editor.
+
+### 3. Install Dependencies
 
 ```bash
 npm install
+```
+
+### 4. Start the Development Server
+
+```bash
 npm run dev
 ```
 
-Open the URL printed by Vite (normally `http://localhost:5173/`). Open this folder directly in VS Code; it must contain `package.json`. Do **not** open `index.html` via VS Code Live Server.
+Open the local development website:
 
-To validate the production output:
+**[http://localhost:5173/](http://localhost:5173/)**
+
+The development server must be running for the link to work.
+
+### 5. Build the Project (Optional)
 
 ```bash
 npm run build
-npm run preview
 ```
 
-The build output is `dist/` and is intentionally not committed to Git.
+This generates the production-ready files inside the `dist/` directory.
 
-## Deploy on Vercel
+---
 
-1. Push this project to your GitHub repository.
-2. In Vercel, **Add New → Project** and import the GitHub repository.
-3. Use **Vite** as the framework preset, **`npm run build`** as the build command, and **`dist`** as the output directory.
-4. Use the repository root as the root directory and deploy.
+## About the Project
 
-No backend or environment variables are needed for the included version. If you add APIs later, keep their secret keys on the server—not in public frontend code.
+COSMOS was developed as a personal passion project to explore creative frontend development, interactive animations, and real-time 3D rendering.
 
-## Included experiences
+The goal is to create an engaging way to explore our solar system while experimenting with modern web development technologies.
 
-- Planet-by-planet scroll journey: Earth → Mars → Jupiter → Saturn → Uranus → Neptune. Mercury and Venus remain available from the atlas.
-- 3D planet viewing and inspection, scientific dossiers, and responsive mobile interaction.
-- Planet Size Comparison, Orbital Navigator, Moon Explorer, Sound Studio.
-- Planetary Hotspots, Day & Night Simulator, Guided Spacecraft Tour, and Surface Map Explorer.
-- Planet Interior Explorer, Solar System Time Machine, Space Mission Explorer, Eclipse Simulator, Gravity Lab, Photo Mode, Exoplanet Explorer, and Exploration Passport.
+This project is intended for educational and creative purposes.
 
-Surface Landing, NASA Photo Comparison, Rover Traverse, Geological Samples, and Planetary Weather were intentionally removed from this edition.
+Some astronomical visualizations use simplified scientific models and artistic representations.
 
-## Directory structure
+---
 
-```text
-.
-├── index.html           # Vite entry
-├── package.json         # npm scripts and dependencies
-├── tsconfig.json
-├── vite.config.ts
-├── src/                 # React, Three.js, and application styles
-├── public/
-│   ├── assets/          # Required textures, backgrounds, and soundtrack
-│   └── features/        # Exploration Lab scripts and styles
-├── .gitignore           # Excludes node_modules, builds, and secrets
-├── ASSET_CREDITS.md     # Media provenance and caveats
-└── README.md
-```
+## Credits & Attribution
 
-## Soundtrack and attribution
+**Developer:** DevHon
 
-The project bundles `public/assets/audio/cosmos-ambient.mp3`, adapted from the provided COSMOS soundtrack. Sound is selected **On** by default, but browsers may require a click or tap before audible playback is permitted; visitors can mute it.
+**GitHub:** [HonTheCoder](https://github.com/HonTheCoder)
 
-**Before publishing publicly**, confirm that you have permission to redistribute this soundtrack and the supplied media. Review [Asset Credits](ASSET_CREDITS.md), do not imply NASA endorsement, and do not commit credentials or `.env` secrets. Developer credit in the website footer does not transfer copyright in external assets.
+**Planetary Imagery & References:**
+- [NASA](https://www.nasa.gov/)
+- [NASA Jet Propulsion Laboratory](https://www.jpl.nasa.gov/)
 
-**Developer:** DevHon. No open-source license is granted here for third-party imagery or music.
+**Background Music:** AI-generated using Google Flow Music for the COSMOS project.
 
-Background Music: AI-generated using Google Flow Music for the COSMOS project.
+For additional asset information, see [ASSET_CREDITS.md](ASSET_CREDITS.md).
+
+Third-party imagery, music, and other assets remain subject to their respective usage terms. Developer attribution does not imply ownership of external materials.
+
+---
+
+**COSMOS — Explore Beyond Our World.**
+
+*Made for fun, learning, and creative exploration.*
+
+**Developed by DevHon**
