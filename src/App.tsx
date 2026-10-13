@@ -320,7 +320,7 @@ export default function App() {
           <h2>THE UNIVERSE<br /><em>IS WAITING.</em></h2>
           <p>We have only begun to explore the worlds beyond our own.</p>
           <div><button className="primary-action" onClick={() => goTo(0)}>RESTART THE JOURNEY <RotateCcw size={17} /></button><button className="text-action" onClick={() => setAtlasOpen(true)}>OPEN THE ATLAS <ArrowUpRight size={16} /></button></div>
-          <span className="end-credit">COSMOS — AN INDEPENDENT PLANETARY EXPERIENCE<br />NOT AFFILIATED WITH NASA</span>
+          <span className="end-credit">COSMOS — AN INDEPENDENT PLANETARY EXPERIENCE<br />NOT AFFILIATED WITH NASA<br /><span className="developer-credit">DEVELOPED BY <strong>DevHon</strong></span></span>
         </section>
       </main>
 

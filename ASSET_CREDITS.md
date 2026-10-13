@@ -1,3 +1,5 @@
+> Site implementation and interface credit: **DevHon**. Planetary and other third-party assets retain their own provenance below.
+
 # COSMOS asset provenance
 
 Earth: Blue Marble Next Generation, NASA Earth Observatory, reproduced from the locally installed basemap_data `bmng.jpg` image (5400×2700) and prepared at 4096×2048 for this project. The moving Earth cloud map is an original procedural visualization and is not an observed cloud field.

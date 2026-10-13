@@ -123,6 +123,11 @@ body,button,a {font-family:var(--type-body)}
  line-height:1.8;text-align:center;font-size:8px;font-weight:500;
  letter-spacing:.15em;color:#8094ae;
 }
+
+/* Subtle author credit, displayed only on the final journey footer. */
+.developer-credit {display:inline-block;margin-top:11px;font-size:9px;letter-spacing:.13em;color:#9aafc7}
+.developer-credit strong {color:#e0edff;font-weight:700;letter-spacing:.08em}
+
 /* A single optional focus switch, without additional floating controls. */
 .focus-toggle {border:1px solid rgba(183,211,244,.25);background:rgba(4,11,21,.34);color:#a9bed6;border-radius:2px;display:inline-flex;align-items:center;gap:10px;padding:10px 12px;letter-spacing:.09em;font:500 9px var(--type-data);white-space:nowrap;transition:color .24s,border-color .24s,background .24s}
 .focus-toggle:hover,.focus-toggle.is-active{border-color:rgba(184,221,255,.7);color:#e1f2ff;background:rgba(74,121,166,.15)}
